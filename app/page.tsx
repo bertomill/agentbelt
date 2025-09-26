@@ -10,7 +10,7 @@ export default function Home() {
           AI That Actually Ships
         </p>
         <p className="text-lg text-slate-600 dark:text-slate-300 mb-12 max-w-3xl mx-auto leading-relaxed">
-          We bridge the gap between AI's transformative potential and practical business implementation.
+          We bridge the gap between AI&apos;s transformative potential and practical business implementation.
           Get pragmatic AI solutions focused on rapid prototyping, measurable outcomes, and transparent pricing.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -68,7 +68,7 @@ export default function Home() {
             Ready to Transform Your Business with AI?
           </h2>
           <p className="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
-            Join leading companies who've already implemented practical AI solutions with measurable results
+            Join leading companies who&apos;ve already implemented practical AI solutions with measurable results
           </p>
           <button className="bg-white hover:bg-gray-100 text-blue-600 font-semibold py-4 px-8 rounded-lg transition-colors shadow-lg">
             Schedule Free Consultation
