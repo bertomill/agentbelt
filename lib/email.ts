@@ -1,7 +1,7 @@
 import { Resend } from 'resend'
 import { Lead } from './supabase'
 
-// Initialize Resend client
+// Initialize Resend client with null safety
 const resendApiKey = process.env.RESEND_API_KEY
 const resend = resendApiKey ? new Resend(resendApiKey) : null
 
@@ -181,15 +181,15 @@ Visit us at: https://agentbelt.vercel.app
         
         <p>Hi ${lead.name},</p>
         
-        <p>Thank you for reaching out to AgentBelt! We've received your message and are excited to help you explore AI solutions for your business.</p>
+        <p>Thank you for reaching out to AgentBelt! We&apos;ve received your message and are excited to help you explore AI solutions for your business.</p>
         
         <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0;">
           <h3 style="margin-top: 0; color: #495057;">What Happens Next?</h3>
           <ul style="line-height: 1.6;">
             <li>Our team will review your inquiry within 24 hours</li>
-            <li>We'll schedule a free 30-minute consultation call</li>
-            <li>We'll discuss your specific AI needs and potential solutions</li>
-            <li>If it's a good fit, we'll create a custom proposal for your project</li>
+            <li>We&apos;ll schedule a free 30-minute consultation call</li>
+            <li>We&apos;ll discuss your specific AI needs and potential solutions</li>
+            <li>If it&apos;s a good fit, we&apos;ll create a custom proposal for your project</li>
           </ul>
         </div>
         

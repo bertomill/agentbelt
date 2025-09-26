@@ -7,7 +7,11 @@
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint",
-    "test:infrastructure": "npx tsx scripts/test-infrastructure.ts"
+    "test:infrastructure": "npx tsx scripts/test-infrastructure.ts",
+    "test:db": "tsx scripts/test-database.ts",
+    "test:email": "tsx scripts/test-email.ts",
+    "test:integration": "tsx scripts/test-integration.ts",
+    "test:all": "npm run test:db && npm run test:email && npm run test:integration"
   },
   "dependencies": {
     "@react-email/render": "^1.3.1",
@@ -21,9 +25,10 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
+    "@types/node": "^20.19.17",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "dotenv": "^17.2.2",
     "eslint": "^9",
     "eslint-config-next": "15.5.4",
     "tailwindcss": "^4",

@@ -6,7 +6,7 @@ if (typeof window === 'undefined' && !process.env.NEXT_RUNTIME) {
   config({ path: '.env.local' })
 }
 
-// Supabase configuration
+// Supabase configuration with null safety for build process
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
 const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
 const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY
@@ -141,10 +141,7 @@ export class LeadService {
         return { success: false, error: new Error('Supabase client not configured') }
       }
 
-      const { error } = await supabase
-        .from('leads')
-        .select('count')
-        .limit(1)
+      const { error } = await supabase.from('leads').select('count', { count: 'exact', head: true })
 
       if (error) {
         console.error('Database connection test failed:', error)
