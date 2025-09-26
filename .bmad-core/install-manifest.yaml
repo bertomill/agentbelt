@@ -1,9 +1,9 @@
 version: 4.43.1
-installed_at: '2025-09-24T22:17:19.093Z'
+installed_at: '2025-09-26T01:58:22.925Z'
 install_type: full
 agent: null
 ides_setup:
-  - claude-code
+  - github-copilot
 expansion_packs: []
 files:
   - path: .bmad-core/working-in-the-brownfield.md
@@ -150,24 +150,6 @@ files:
   - path: .bmad-core/tasks/advanced-elicitation.md
     hash: d39118bf32237a21
     modified: false
-  - path: .bmad-core/data/test-priorities-matrix.md
-    hash: 1dd5698a46ab054e
-    modified: false
-  - path: .bmad-core/data/test-levels-framework.md
-    hash: f814f8efed0e96e1
-    modified: false
-  - path: .bmad-core/data/technical-preferences.md
-    hash: a829f3172a10b396
-    modified: false
-  - path: .bmad-core/data/elicitation-methods.md
-    hash: 8c3ca9b84c8784c9
-    modified: false
-  - path: .bmad-core/data/brainstorming-techniques.md
-    hash: 62b0bf50648906b0
-    modified: false
-  - path: .bmad-core/data/bmad-kb.md
-    hash: 1d38eeee61c55bf9
-    modified: false
   - path: .bmad-core/checklists/story-draft-checklist.md
     hash: 0bc8a90678dba318
     modified: false
@@ -215,6 +197,24 @@ files:
     modified: false
   - path: .bmad-core/agents/analyst.md
     hash: 4b50870da75956b0
+    modified: false
+  - path: .bmad-core/data/test-priorities-matrix.md
+    hash: 1dd5698a46ab054e
+    modified: false
+  - path: .bmad-core/data/test-levels-framework.md
+    hash: f814f8efed0e96e1
+    modified: false
+  - path: .bmad-core/data/technical-preferences.md
+    hash: a829f3172a10b396
+    modified: false
+  - path: .bmad-core/data/elicitation-methods.md
+    hash: 8c3ca9b84c8784c9
+    modified: false
+  - path: .bmad-core/data/brainstorming-techniques.md
+    hash: 62b0bf50648906b0
+    modified: false
+  - path: .bmad-core/data/bmad-kb.md
+    hash: 1d38eeee61c55bf9
     modified: false
   - path: .bmad-core/agent-teams/team-no-ui.yaml
     hash: 00cbffc4106cbe1e
