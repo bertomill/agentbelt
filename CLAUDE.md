@@ -3,7 +3,7 @@
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Project Overview
-Spiralnote - A Next.js 15.5.4 application with TypeScript and Tailwind CSS v4, created with create-next-app. The project uses the App Router (app directory) architecture and Turbopack for development and builds.
+AgentBelt - A high-converting landing page for an AI agency focused on practical business implementations. Built with Next.js 15.5.4, TypeScript, and Tailwind CSS v4. The project uses the App Router (app directory) architecture and Turbopack for development and builds.
 
 ## Development Commands
 
